@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Navbar.jsx';
+import Navbar from './Components/Navbar/Navbar.jsx';
 
 function App() {
   const mainTitle = "Welcome to the react blog";
@@ -12,7 +12,6 @@ function App() {
         <h1>{mainTitle}</h1>
         <p>Post liked by {likes} people</p>
       </div>
-      
     </div>
   )
 }
