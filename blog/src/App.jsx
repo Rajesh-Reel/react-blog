@@ -1,16 +1,13 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar.jsx';
+import Home from './Pages/Home';
 
 function App() {
-  const mainTitle = "Welcome to the react blog";
-  const likes = 76;
-
   return (
     <div className="App">
-    <Navbar></Navbar>
+    <Navbar />
       <div>
-        <h1>{mainTitle}</h1>
-        <p>Post liked by {likes} people</p>
+        <Home />
       </div>
     </div>
   )

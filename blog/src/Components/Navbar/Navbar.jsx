@@ -2,7 +2,7 @@ function Navbar() {
     return(
         <nav className="navbar">
             <h1>Blog Title</h1>
-            <div>
+            <div className="links">
                 {/* <a href="/">Home</a>
                 <a href="/create">New Blog</a> */}
             </div>
