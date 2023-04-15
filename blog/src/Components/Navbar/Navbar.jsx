@@ -3,8 +3,12 @@ function Navbar() {
         <nav className="navbar">
             <h1>Blog Title</h1>
             <div className="links">
-                {/* <a href="/">Home</a>
-                <a href="/create">New Blog</a> */}
+                <a href="/">Home</a>
+                <a href="/create" style={{
+                    color: "black",
+                    backgroundColor: "f1356d",
+                    borderRadius: "8px"
+                }}>New Blog</a>
             </div>
         </nav>
     )

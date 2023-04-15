@@ -1,4 +1,3 @@
-// import './App.css';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Home from './Pages/Home';
 
