@@ -5,17 +5,19 @@ function Home() {
     const likes = 76;
 
     const [name, setName] = useState("Rajesh");
+    const [age, setAge] = useState(31)
 
     function handleClick() {
         console.log("clicked");
-        setName("Not Rajesh")
+        setName("Not Rajesh");
+        setAge(35);
     }
 
     return(
         <div className="home">
             <h1>{mainTitle}</h1>
             <p>Post liked by {likes} people</p>
-            <p>{ name }</p>
+            <p>{ name } is { age } years old</p>
             <button onClick={handleClick}>Clicky</button>
         </div>
     )
