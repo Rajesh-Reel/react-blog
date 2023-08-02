@@ -6,6 +6,11 @@ function Home() {
 
     const [name, setName] = useState("Rajesh");
     const [age, setAge] = useState(31)
+    const [blogs, setBlogs] = useState([
+        { title: "First Blog", body: "lorem ipsum...", author: "Raj", id: 1 },
+        { title: "Second Entry", body: "lorem ipsum...", author: "Mike", id: 2 },
+        { title: "SF: Third Strike", body: "lorem ipsum...", author: "Tom", id: 3 }
+    ]);
 
     function handleClick() {
         console.log("clicked");
