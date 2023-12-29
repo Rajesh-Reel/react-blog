@@ -24,6 +24,13 @@ function Home() {
             <p>Post liked by {likes} people</p>
             <p>{ name } is { age } years old</p>
             <button onClick={handleClick}>Clicky</button>
+
+            {blogs.map((blog) => (
+                <div className="blog-prev" key={blog.id}>
+                    <h2>{blog.title}</h2>
+                    <p>Written by {blog.author}</p>
+                </div>
+            ))}
         </div>
     )
 }
